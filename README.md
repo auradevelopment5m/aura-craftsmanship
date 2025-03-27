@@ -5,3 +5,4 @@
 
 - [Documentation](https://zdevelopment.gitbook.io/aura-development-documentation/free-scripts/aura-craftsmanship)
 
+- [Preview](https://www.youtube.com/watch?v=38qyvSRH1hw)
