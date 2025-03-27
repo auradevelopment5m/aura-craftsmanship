@@ -459,7 +459,8 @@ local function GenerateRecipeOptions(categoryId, playerLevel)
         
         validRecipes = validRecipes + 1
         
-        local canCraftLevel = Config.UseSkillSystem and playerLevel >= recipe.requiredLevel or true
+        -- Fix: Properly check level requirement when skill system is enabled
+        local canCraftLevel = not Config.UseSkillSystem or playerLevel >= recipe.requiredLevel
         
         local hasItems, missingItems = ValidateIngredients(recipe.ingredients)
         
@@ -480,7 +481,8 @@ local function GenerateRecipeOptions(categoryId, playerLevel)
         
         local statusText = ""
         if Config.UseSkillSystem and not canCraftLevel then
-            statusText = locale('requires_level', recipe.requiredLevel)
+            -- Updated message for low level
+            statusText = "Low level, get your aura up"
             ingredientText = statusText .. "\n\n" .. ingredientText
         elseif not hasItems then
             statusText = locale('missing_ingredients')
@@ -510,7 +512,7 @@ local function GenerateRecipeOptions(categoryId, playerLevel)
                 elseif Config.UseSkillSystem and not canCraftLevel then
                     lib.notify({
                         title = locale('crafting_title'),
-                        description = locale('level_requirement', recipe.requiredLevel),
+                        description = "Low level, get your aura up (Need level " .. recipe.requiredLevel .. ")",
                         type = 'error'
                     })
                 else
@@ -709,6 +711,19 @@ function InitiateCraftingProcess(recipe)
     if not recipe or not recipe.name or not recipe.label or not recipe.ingredients or 
        not recipe.time or not recipe.amount or not recipe.xpReward then
         return
+    end
+    
+    -- Double-check level requirement before crafting
+    if Config.UseSkillSystem then
+        local playerLevel = GetPlayerRecyclingLevel()
+        if playerLevel < recipe.requiredLevel then
+            lib.notify({
+                title = locale('crafting_title'),
+                description = "Low level, get your aura up (Need level " .. recipe.requiredLevel .. ")",
+                type = 'error'
+            })
+            return
+        end
     end
     
     local craftingSessionId = tostring(GetGameTimer())
