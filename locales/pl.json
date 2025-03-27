@@ -1,0 +1,20 @@
+{
+    "open_crafting_menu": "[E] Otwórz Menu Wytwarzania",
+    "crafting_menu": "Menu Wytwarzania",
+    "crafting_title": "Wytwarzanie",
+    "browse_recipes": "Przeglądaj przepisy %s",
+    "ingredients": "Składniki:",
+    "crafting_time": "Czas Wytwarzania: %ss",
+    "xp_reward": "Nagroda XP: %s",
+    "requires_level": "Wymaga Poziomu Recyklingu %s",
+    "missing_ingredients": "Brakujące składniki",
+    "ready_to_craft": "Gotowy do wytworzenia",
+    "missing_items": "Brakujące przedmioty:",
+    "level_requirement": "Potrzebujesz poziomu recyklingu %s, aby wytworzyć ten przedmiot!",
+    "crafting_progress": "Wytwarzanie %s...",
+    "crafting_cancelled": "Wytwarzanie anulowane",
+    "crafting_failed": "Wytwarzanie nie powiodło się z niejasnych powodów!",
+    "crafting_success": "Wytworzyłeś %sx %s",
+    "your_recycling_level": "Twój Poziom Recyklingu",
+    "no_recipes_available": "Brak dostępnych przepisów"
+  }

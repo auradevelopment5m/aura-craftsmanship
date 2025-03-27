@@ -1,0 +1,20 @@
+{
+    "open_crafting_menu": "[E] Herstellungsmenü öffnen",
+    "crafting_menu": "Herstellungsmenü",
+    "crafting_title": "Herstellung",
+    "browse_recipes": "%s Rezepte durchsuchen",
+    "ingredients": "Zutaten:",
+    "crafting_time": "Herstellungszeit: %ss",
+    "xp_reward": "XP-Belohnung: %s",
+    "requires_level": "Erfordert Recycling-Level %s",
+    "missing_ingredients": "Fehlende Zutaten",
+    "ready_to_craft": "Bereit zum Herstellen",
+    "missing_items": "Fehlende Gegenstände:",
+    "level_requirement": "Sie benötigen Recycling-Level %s, um diesen Gegenstand herzustellen!",
+    "crafting_progress": "Stelle %s her...",
+    "crafting_cancelled": "Herstellung abgebrochen",
+    "crafting_failed": "Herstellung aus unklaren Gründen fehlgeschlagen!",
+    "crafting_success": "Sie haben %sx %s hergestellt",
+    "your_recycling_level": "Ihr Recycling-Level",
+    "no_recipes_available": "Keine Rezepte verfügbar"
+  }

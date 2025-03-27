@@ -1,0 +1,20 @@
+{
+    "open_crafting_menu": "[E] Open Crafting Menu",
+    "crafting_menu": "Crafting Menu",
+    "crafting_title": "Crafting",
+    "browse_recipes": "Blader door %s recepten",
+    "ingredients": "Ingrediënten:",
+    "crafting_time": "Crafting Tijd: %ss",
+    "xp_reward": "XP Beloning: %s",
+    "requires_level": "Vereist Recycling Niveau %s",
+    "missing_ingredients": "Ontbrekende ingrediënten",
+    "ready_to_craft": "Klaar om te craften",
+    "missing_items": "Ontbrekende items:",
+    "level_requirement": "Je hebt recycling niveau %s nodig om dit item te maken!",
+    "crafting_progress": "Bezig met maken van %s...",
+    "crafting_cancelled": "Crafting geannuleerd",
+    "crafting_failed": "Crafting Mislukt Door onduidelijke redenen!",
+    "crafting_success": "Je hebt %sx %s gemaakt",
+    "your_recycling_level": "Jouw Recycling Niveau",
+    "no_recipes_available": "Geen recepten beschikbaar"
+  }

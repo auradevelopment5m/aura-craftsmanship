@@ -1,0 +1,20 @@
+{
+    "open_crafting_menu": "[E] 打开制作菜单",
+    "crafting_menu": "制作菜单",
+    "crafting_title": "制作",
+    "browse_recipes": "浏览%s配方",
+    "ingredients": "材料：",
+    "crafting_time": "制作时间：%s秒",
+    "xp_reward": "经验奖励：%s",
+    "requires_level": "需要回收等级 %s",
+    "missing_ingredients": "缺少材料",
+    "ready_to_craft": "准备制作",
+    "missing_items": "缺少物品：",
+    "level_requirement": "你需要回收等级 %s 才能制作此物品！",
+    "crafting_progress": "正在制作 %s...",
+    "crafting_cancelled": "制作已取消",
+    "crafting_failed": "由于不明原因，制作失败！",
+    "crafting_success": "你制作了 %sx %s",
+    "your_recycling_level": "你的回收等级",
+    "no_recipes_available": "没有可用的配方"
+  }

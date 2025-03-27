@@ -1,0 +1,20 @@
+{
+    "open_crafting_menu": "[E] Apri Menu Fabbricazione",
+    "crafting_menu": "Menu Fabbricazione",
+    "crafting_title": "Fabbricazione",
+    "browse_recipes": "Sfoglia ricette di %s",
+    "ingredients": "Ingredienti:",
+    "crafting_time": "Tempo di Fabbricazione: %ss",
+    "xp_reward": "Ricompensa XP: %s",
+    "requires_level": "Richiede Livello di Riciclaggio %s",
+    "missing_ingredients": "Ingredienti mancanti",
+    "ready_to_craft": "Pronto per fabbricare",
+    "missing_items": "Oggetti mancanti:",
+    "level_requirement": "Hai bisogno del livello di riciclaggio %s per fabbricare questo oggetto!",
+    "crafting_progress": "Fabbricando %s...",
+    "crafting_cancelled": "Fabbricazione annullata",
+    "crafting_failed": "Fabbricazione fallita per motivi oscuri!",
+    "crafting_success": "Hai fabbricato %sx %s",
+    "your_recycling_level": "Il Tuo Livello di Riciclaggio",
+    "no_recipes_available": "Nessuna ricetta disponibile"
+  }

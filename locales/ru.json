@@ -1,0 +1,20 @@
+{
+    "open_crafting_menu": "[E] Открыть Меню Крафта",
+    "crafting_menu": "Меню Крафта",
+    "crafting_title": "Крафт",
+    "browse_recipes": "Просмотр рецептов %s",
+    "ingredients": "Ингредиенты:",
+    "crafting_time": "Время Крафта: %sс",
+    "xp_reward": "Награда XP: %s",
+    "requires_level": "Требуется Уровень Переработки %s",
+    "missing_ingredients": "Отсутствуют ингредиенты",
+    "ready_to_craft": "Готов к крафту",
+    "missing_items": "Отсутствующие предметы:",
+    "level_requirement": "Вам нужен уровень переработки %s, чтобы создать этот предмет!",
+    "crafting_progress": "Создание %s...",
+    "crafting_cancelled": "Крафт отменен",
+    "crafting_failed": "Крафт не удался по непонятным причинам!",
+    "crafting_success": "Вы создали %sx %s",
+    "your_recycling_level": "Ваш Уровень Переработки",
+    "no_recipes_available": "Нет доступных рецептов"
+  }

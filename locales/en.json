@@ -1,0 +1,19 @@
+{
+  "open_crafting_menu": "[E] Open Crafting Menu",
+  "crafting_menu": "Crafting Menu",
+  "crafting_title": "Crafting",
+  "browse_recipes": "Browse %s recipes",
+  "ingredients": "Ingredients:",
+  "crafting_time": "Crafting Time: %ss",
+  "xp_reward": "XP Reward: %s",
+  "requires_level": "Requires Recycling Level %s",
+  "missing_ingredients": "Missing ingredients",
+  "ready_to_craft": "Ready to craft",
+  "missing_items": "Missing items:",
+  "level_requirement": "You need recycling level %s to craft this item!",
+  "crafting_progress": "Crafting %s...",
+  "crafting_cancelled": "Crafting cancelled",
+  "crafting_failed": "Crafting Failed Due to obscure reasons!",
+  "crafting_success": "You crafted %sx %s",
+  "your_recycling_level": "Your Recycling Level"
+}

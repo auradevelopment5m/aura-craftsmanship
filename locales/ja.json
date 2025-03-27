@@ -1,0 +1,20 @@
+{
+    "open_crafting_menu": "[E] クラフトメニューを開く",
+    "crafting_menu": "クラフトメニュー",
+    "crafting_title": "クラフト",
+    "browse_recipes": "%sのレシピを閲覧",
+    "ingredients": "材料：",
+    "crafting_time": "クラフト時間：%s秒",
+    "xp_reward": "XP報酬：%s",
+    "requires_level": "リサイクルレベル%sが必要",
+    "missing_ingredients": "材料不足",
+    "ready_to_craft": "クラフト準備完了",
+    "missing_items": "不足しているアイテム：",
+    "level_requirement": "このアイテムをクラフトするにはリサイクルレベル%sが必要です！",
+    "crafting_progress": "%sをクラフト中...",
+    "crafting_cancelled": "クラフトがキャンセルされました",
+    "crafting_failed": "不明な理由でクラフトに失敗しました！",
+    "crafting_success": "%sx %sをクラフトしました",
+    "your_recycling_level": "あなたのリサイクルレベル",
+    "no_recipes_available": "利用可能なレシピがありません"
+  }
